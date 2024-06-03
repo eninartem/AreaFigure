@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
+using AreaFigure.Implementation;
 using JetBrains.Annotations;
 using Xunit;
-using static AreaFigure.NameConstants;
+using static AreaFigure.Constants.NameConstants;
 
-namespace AreaFigure.Tests;
+namespace AreaFigure.Tests.TwoParamTests;
 
 [TestSubject(typeof(TwoParamsAreaCalculator))]
 public class TwoParamsAreaCalculatorTest

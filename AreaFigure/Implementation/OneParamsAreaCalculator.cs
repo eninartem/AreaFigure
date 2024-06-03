@@ -1,8 +1,12 @@
-using static AreaFigure.NameConstants;
-using static AreaFigure.MathConstants;
+using AreaFigure.Contracts;
+using static AreaFigure.Constants.NameConstants;
+using static AreaFigure.Constants.MathConstants;
 
-namespace AreaFigure;
+namespace AreaFigure.Implementation;
 
+/// <summary>
+/// Возвращает функции, которые могут считать площади фигур по 1 параметру
+/// </summary>
 internal sealed class OneParamsAreaCalculator : BaseParamsAreaCalculator
 {
     internal OneParamsAreaCalculator(int param) : base([param])

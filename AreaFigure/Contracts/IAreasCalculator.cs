@@ -1,4 +1,4 @@
-namespace AreaFigure;
+namespace AreaFigure.Contracts;
 
 /// <summary>
 /// Фабрика возвращает калькуляторы

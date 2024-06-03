@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using static AreaFigure.Constants.NameConstants;
+using static AreaFigure.Constants.MathConstants;
 
-using static AreaFigure.NameConstants;
-using static AreaFigure.MathConstants;
-
-namespace AreaFigure.Tests;
+namespace AreaFigure.Tests.OneParamTests;
 
 internal class OneParamsAreaSuccessTestData : IEnumerable<object[]>
 {

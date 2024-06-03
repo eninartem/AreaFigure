@@ -1,36 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
+using static AreaFigure.Constants.NameConstants;
 
-using static AreaFigure.NameConstants;
+namespace AreaFigure.Tests.ThreeParamTests;
 
-namespace AreaFigure.Tests;
-
-internal class ThreeParamsAreaTriangleSuccessTestData : IEnumerable<object[]>
+internal class ThreeParamsAreaRightTriangleSuccessTestData : IEnumerable<object[]>
 {
     public IEnumerator<object[]> GetEnumerator()
     {
         yield return
         [
-            7, 43, 28.74,
+            8, 10, 36.870,
             new List<ReceivedArea>
             {
-                new(Triangle, 72.366m)
+                new(RightTriangle, 24.0m)
             }
         ];
         yield return
         [
-            4, 4, 60,
+            12, 13, 22.62,
             new List<ReceivedArea>
             {
-                new(Triangle, 6.928m)
+                new(RightTriangle, 30.0m)
             }
         ];
         yield return
         [
-            1, 1, 25,
+            3, 4, 90,
             new List<ReceivedArea>
             {
-                new(Triangle, 0.211m)
+                new(RightTriangle, 6m)
             }
         ];
     }

@@ -1,7 +1,11 @@
 using System.Collections.Immutable;
 
-namespace AreaFigure;
+namespace AreaFigure.Contracts;
 
+/// <summary>
+/// Абстрактный класс для калькуляторов. Имеет метод добавления функции для рассчета и метод самого рассчета
+/// </summary>
+/// <param name="data">Набор параметров</param>
 internal abstract class BaseParamsAreaCalculator(double[] data)
 {
     private readonly Dictionary<string, Func<double[], decimal>> _calcFunctions = new ();

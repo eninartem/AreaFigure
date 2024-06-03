@@ -1,7 +1,11 @@
-using static AreaFigure.NameConstants;
+using AreaFigure.Contracts;
+using static AreaFigure.Constants.NameConstants;
 
-namespace AreaFigure;
+namespace AreaFigure.Implementation;
 
+/// <summary>
+/// Возвращает функции, которые могут считать площади фигур по 3 параметрам (в данном случае это только треугольники)
+/// </summary>
 internal sealed class ThreeParamsAreaCalculator : BaseParamsAreaCalculator
 {
     internal ThreeParamsAreaCalculator(int param1, int param2, double param3) : base([param1, param2, param3])

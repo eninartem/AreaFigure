@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
+using AreaFigure.Implementation;
 using JetBrains.Annotations;
 using Xunit;
+using static AreaFigure.Constants.NameConstants;
 
-using static AreaFigure.NameConstants;
-
-namespace AreaFigure.Tests;
+namespace AreaFigure.Tests.ThreeParamTests;
 
 [TestSubject(typeof(ThreeParamsAreaCalculator))]
 public class ThreeParamsAreaCalculatorTest

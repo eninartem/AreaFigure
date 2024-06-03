@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using static AreaFigure.Constants.NameConstants;
 
-using static AreaFigure.NameConstants;
-
-namespace AreaFigure.Tests;
+namespace AreaFigure.Tests.TwoParamTests;
 
 internal class TwoParamsAreaSuccessTestData : IEnumerable<object[]>
 {

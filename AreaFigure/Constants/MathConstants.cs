@@ -1,4 +1,4 @@
-namespace AreaFigure;
+namespace AreaFigure.Constants;
 
 internal static class MathConstants
 {
