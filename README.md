@@ -1,0 +1,2 @@
+# AreaFigure
+Тестовое для Mindbox
